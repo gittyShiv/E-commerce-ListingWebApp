@@ -98,20 +98,3 @@ type Product = {
 Replace the project’s simple storage with a database (MongoDB, PostgreSQL, etc.) for production.
 
 ---
-
-## Deployment
-
-- Build for production:
-  ```bash
-  npm run build
-  ```
-- Start production:
-  ```bash
-  npm start
-  ```
-- Recommended hosting: Vercel (seamless Next.js support), Netlify, or any Node.js host. Ensure environment variables are configured in the hosting dashboard.
-
----
-
-```
-```
