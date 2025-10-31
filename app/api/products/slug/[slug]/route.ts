@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getProductBySlug } from "../../../../../lib/products";
 
 export async function GET(req: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params; // 👈 await is required in Next.js 16
+  const { slug } = await params; // 👈 must await this now
   console.log("[API GET] requested slug:", JSON.stringify(slug));
 
   try {
