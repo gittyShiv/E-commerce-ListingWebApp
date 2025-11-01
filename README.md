@@ -24,8 +24,7 @@ This README explains the tech stack, quick setup, environment variables, availab
 
 1. Clone the repo
    ```bash
-   git clone <your-repo-url>
-   cd <repo-directory>
+   git clone https://github.com/gittyShiv/E-commerce-ListingWebApp
    ```
 
 2. Install dependencies
